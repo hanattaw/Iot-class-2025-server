@@ -4,4 +4,4 @@ global:
 scrape_configs:
   - job_name: 'vernemq'
     static_configs:
-      - targets: ['192.168.1.110:8888'] #Exposes metrics for prometheus to scrape
+      - targets: ['vernemq1.local:8888'] #Exposes metrics for prometheus to scrape
