@@ -105,7 +105,7 @@ Persistent data is stored for the following:
 ## 💾 **Starting Container**
 ```bash
 # change to directory server
-$ cd ~/iot-class-2025-server
+$ cd ~/Iot-class-2025-server
 
 # build and start container
 $ docker compose up --build 
@@ -121,7 +121,7 @@ $ docker compose up --build
 ## 💾 **Stop and remove containers, networks**
 ```bash
 # change to directory server
-$ cd ~/iot-class-2025-server
+$ cd ~/Iot-class-2025-server
 
 # build and start container
 $ docker compose down --volumes --remove-orphans --rmi
