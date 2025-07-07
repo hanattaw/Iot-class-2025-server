@@ -70,7 +70,7 @@ services:
 
   kafka:
     image: bitnami/kafka:latest
-    platform: linux/arm64
+    # platform: linux/arm64
     container_name: kafka
     environment:
       - KAFKA_KRAFT_MODE=true
@@ -96,7 +96,7 @@ services:
 
   kafka-ui:
     image: provectuslabs/kafka-ui:latest
-    platform: linux/arm64
+    # platform: linux/arm64
     container_name: kafka-ui
     depends_on:
       - kafka
