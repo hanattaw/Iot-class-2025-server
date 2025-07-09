@@ -22,9 +22,7 @@
   "links": [],
   "panels": [
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "mappings": [],
@@ -79,9 +77,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -140,9 +136,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -201,9 +195,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -262,10 +254,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -349,10 +338,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "influxdb",
-            "uid": "beqzzqqvcpog0e"
-          },
+           "datasource": "influxDB",
           "query": "from(bucket: \"iot_data\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"event-frames-model\")\n  |> filter(fn: (r) => r[\"_field\"] == \"temperature\")\n    |> filter(fn: (r) => r[\"name\"] == \"iot_sensor_0\")\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
           "refId": "A"
         }
@@ -361,10 +347,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -448,10 +431,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "influxdb",
-            "uid": "beqzzqqvcpog0e"
-          },
+           "datasource": "influxDB",
           "query": "from(bucket: \"iot_data\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"event-frames-model\")\n  |> filter(fn: (r) => r[\"_field\"] == \"humidity\")\n    |> filter(fn: (r) => r[\"name\"] == \"iot_sensor_0\")\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
           "refId": "A"
         }
@@ -460,10 +440,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -547,10 +524,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "influxdb",
-            "uid": "beqzzqqvcpog0e"
-          },
+           "datasource": "influxDB",
           "query": "from(bucket: \"iot_data\")\n  |> range(start: v.timeRangeStart, stop: v.timeRangeStop)\n  |> filter(fn: (r) => r[\"_measurement\"] == \"event-frames-model\")\n  |> filter(fn: (r) => r[\"_field\"] == \"pressure\")\n    |> filter(fn: (r) => r[\"name\"] == \"iot_sensor_0\")\n  |> aggregateWindow(every: v.windowPeriod, fn: last, createEmpty: false)\n  |> yield(name: \"last\")",
           "refId": "A"
         }
@@ -572,7 +546,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Kafka IoT Batch Model iot_sensor_0",
+  "title": "Kafka IoT Model",
   "uid": "b71e7ea0-3f11-4c2b-a3a3-c1d83cb94b73",
   "version": 23
 }

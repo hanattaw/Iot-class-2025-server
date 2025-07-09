@@ -35,9 +35,7 @@
       "type": "row"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "mappings": [],
@@ -92,9 +90,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "description": "Fan speed Model Prediction",
       "fieldConfig": {
         "defaults": {
@@ -158,9 +154,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -219,9 +213,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -280,9 +272,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -354,9 +344,7 @@
       "type": "row"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "description": "Fan speed prediction all sensors excluded model sensor.",
       "fieldConfig": {
         "defaults": {
@@ -420,9 +408,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "description": "Fan speed prediction all sensors excluded model sensor.",
       "fieldConfig": {
         "defaults": {
@@ -522,10 +508,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -621,10 +604,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -720,10 +700,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "beqzzqqvcpog0e"
-      },
+       "datasource": "influxDB",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -832,7 +809,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "Kafka IoT Batch Model Fan Prediction",
+  "title": "Kafka IoT Model Fan Prediction",
   "uid": "069f9e08-a2b5-4636-8f30-10bd2c7ee3cc",
   "version": 34
 }

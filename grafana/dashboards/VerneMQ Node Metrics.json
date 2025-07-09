@@ -35,10 +35,7 @@
       "type": "row"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -118,10 +115,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "description": "This is the current total of living queues (started queue processes). These queues might be in an online or an offline state (ie. belong to an online or offline client).",
       "fieldConfig": {
         "defaults": {
@@ -205,10 +199,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "description": "Current rate per second of received MQTT PUBLISH frames by the broker.",
       "fieldConfig": {
         "defaults": {
@@ -293,10 +284,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "description": "Current rate per second of sent MQTT PUBLISH frames by the broker.",
       "fieldConfig": {
         "defaults": {
@@ -372,10 +360,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "description": "VerneMQ Broker Uptime",
       "fieldConfig": {
         "defaults": {
@@ -453,10 +438,7 @@
       "type": "stat"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "description": "VerneMQ Broker average Erlang Scheduler utilization.",
       "fieldConfig": {
         "defaults": {
@@ -537,10 +519,7 @@
       "type": "row"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -640,10 +619,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "prometheus",
-        "uid": "deks4g1va3ke8b"
-      },
+      "datasource": "prometheus",
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -4434,7 +4410,7 @@
   },
   "timepicker": {},
   "timezone": "browser",
-  "title": "VerneMQ Node Metrics2",
+  "title": "VerneMQ Node Metrics",
   "uid": "c03b35e7-f9aa-492e-b1a4-87005e828a35",
   "version": 13
 }
