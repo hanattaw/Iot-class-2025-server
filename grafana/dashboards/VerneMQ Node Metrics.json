@@ -97,10 +97,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "vernemq_socket_open{}-vernemq_socket_close{}",
           "interval": "",
@@ -182,10 +179,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "vernemq_queue_processes",
           "intervalFactor": 2,
@@ -266,10 +260,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "sum(rate(vernemq_mqtt_publish_received[30s]))",
           "hide": false,
@@ -343,10 +334,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "sum(rate(vernemq_mqtt_publish_sent[30s]))",
           "intervalFactor": 2,
@@ -419,10 +407,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "vernemq_system_wallclock",
           "interval": "",
@@ -487,10 +472,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "vernemq_system_utilization",
           "interval": "",
@@ -598,10 +580,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "rate(vernemq_bytes_received{}[30s])",
           "hide": false,
@@ -698,10 +677,7 @@
       "pluginVersion": "12.0.2",
       "targets": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "editorMode": "code",
           "expr": "rate(vernemq_bytes_sent{}[30s])",
           "intervalFactor": 2,
@@ -726,10 +702,7 @@
       "id": 46,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -808,10 +781,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_socket_open[30s])",
               "intervalFactor": 2,
@@ -822,10 +792,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_socket_close[30s])",
               "intervalFactor": 2,
@@ -853,10 +820,7 @@
       "id": 47,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -935,10 +899,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_queue_processes",
               "intervalFactor": 2,
@@ -953,10 +914,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1035,10 +993,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_queue_setup[60s])",
               "intervalFactor": 2,
@@ -1049,10 +1004,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_queue_teardown[60s])",
               "intervalFactor": 2,
@@ -1067,10 +1019,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1155,10 +1104,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_queue_message_in[1m])",
               "intervalFactor": 2,
@@ -1169,10 +1115,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_queue_message_out[1m])",
               "intervalFactor": 2,
@@ -1183,10 +1126,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(queue_message_drop[1m])",
               "intervalFactor": 2,
               "legendFormat": "Dropped",
@@ -1195,10 +1135,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(queue_message_unhandled[1m])",
               "intervalFactor": 2,
               "legendFormat": "Unhandled",
@@ -1225,10 +1162,7 @@
       "id": 48,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1307,10 +1241,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_router_subscriptions",
               "intervalFactor": 2,
@@ -1325,10 +1256,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1407,10 +1335,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_router_memory",
               "intervalFactor": 2,
@@ -1439,10 +1364,7 @@
       "id": 49,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1521,10 +1443,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_utilization",
               "intervalFactor": 2,
@@ -1539,10 +1458,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1621,10 +1537,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_reductions[30s])",
               "intervalFactor": 2,
@@ -1639,10 +1552,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1723,10 +1633,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_utilization_scheduler_1",
               "intervalFactor": 2,
@@ -1737,10 +1644,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_utilization_scheduler_2",
               "intervalFactor": 2,
@@ -1751,10 +1655,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_utilization_scheduler_3",
               "intervalFactor": 2,
@@ -1765,10 +1666,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_utilization_scheduler_4",
               "intervalFactor": 2,
@@ -1783,10 +1681,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1866,10 +1761,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_context_switches[30s])",
               "intervalFactor": 2,
@@ -1884,10 +1776,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -1966,10 +1855,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_io_in[30s])",
               "intervalFactor": 2,
@@ -1980,10 +1866,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_io_out[30s])",
               "intervalFactor": 2,
@@ -1998,10 +1881,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2081,10 +1961,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_system_run_queue",
               "intervalFactor": 2,
@@ -2099,10 +1976,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2182,10 +2056,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_gc_count[30s])",
               "intervalFactor": 2,
@@ -2200,10 +2071,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2283,10 +2151,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_system_words_reclaimed_by_gc[30s])",
               "intervalFactor": 2,
@@ -2315,10 +2180,7 @@
       "id": 51,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2397,10 +2259,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_retain_memory",
               "intervalFactor": 2,
@@ -2415,10 +2274,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2497,10 +2353,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_retain_messages",
               "intervalFactor": 2,
@@ -2529,10 +2382,7 @@
       "id": 52,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2617,10 +2467,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_socket_open[30s])",
               "intervalFactor": 2,
@@ -2631,10 +2478,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_socket_close[30s])",
               "intervalFactor": 2,
@@ -2645,10 +2489,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_socket_error[30s])",
               "intervalFactor": 2,
@@ -2677,10 +2518,7 @@
       "id": 53,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2759,10 +2597,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_cluster_bytes_sent[30s])",
               "intervalFactor": 2,
@@ -2773,10 +2608,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_cluster_bytes_received[30s])",
               "intervalFactor": 2,
@@ -2787,10 +2619,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_cluster_bytes_dropped[30s])",
               "intervalFactor": 2,
@@ -2819,10 +2648,7 @@
       "id": 54,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -2907,10 +2733,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_bad_credentials_sent[30s])",
               "intervalFactor": 2,
@@ -2921,10 +2744,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_identifier_rejected_sent[30s])",
               "intervalFactor": 2,
@@ -2935,10 +2755,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_not_authorized_sent[30s])",
               "intervalFactor": 2,
@@ -2949,10 +2766,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_server_unavailable_sent[30s])",
               "intervalFactor": 2,
@@ -2963,10 +2777,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_unacceptable_protocol_sent[30s])",
               "intervalFactor": 2,
@@ -2981,10 +2792,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3069,10 +2877,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connect_received[30s])",
               "intervalFactor": 2,
@@ -3083,10 +2888,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_connack_accepted_sent[30s])",
               "intervalFactor": 2,
@@ -3115,10 +2917,7 @@
       "id": 55,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3203,10 +3002,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_subscribe_received[30s])",
               "intervalFactor": 2,
@@ -3217,10 +3013,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_suback_sent[30s])",
               "intervalFactor": 2,
@@ -3231,10 +3024,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_subscribe_error[30s])",
               "intervalFactor": 2,
@@ -3245,10 +3035,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_subscribe_auth_error[30s])",
               "intervalFactor": 2,
@@ -3263,10 +3050,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3351,10 +3135,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_unsubscribe_received[30s])",
               "intervalFactor": 2,
@@ -3365,10 +3146,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_unsuback_sent[30s])",
               "intervalFactor": 2,
@@ -3379,10 +3157,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_mqtt_unsubscribe_error",
               "intervalFactor": 2,
@@ -3411,10 +3186,7 @@
       "id": 56,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3499,10 +3271,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_publish_received[30s])",
               "intervalFactor": 2,
@@ -3513,10 +3282,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_publish_sent[30s])",
               "intervalFactor": 2,
@@ -3527,10 +3293,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_publish_error[30s])",
               "intervalFactor": 2,
@@ -3541,10 +3304,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_mqtt_publish_auth_error",
               "intervalFactor": 2,
@@ -3559,10 +3319,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3647,10 +3404,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_puback_received[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBACK Received",
@@ -3659,10 +3413,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_puback_sent[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBACK Sent",
@@ -3671,10 +3422,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_puback_invalid_error[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBACK Invalid",
@@ -3687,10 +3435,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3775,10 +3520,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubrec_received[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBREC Received",
@@ -3787,10 +3529,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubrec_sent[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBREC Sent",
@@ -3799,10 +3538,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubrec_invalid_error[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBREC Invalid",
@@ -3815,10 +3551,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -3896,10 +3629,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubrel_received[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBREL Received",
@@ -3908,10 +3638,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubrel_sent[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBREL Sent",
@@ -3924,10 +3651,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -4005,10 +3729,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubcomp_received[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBCOMP Received",
@@ -4017,10 +3738,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubcomp_sent[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBCOMP Sent",
@@ -4029,10 +3747,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "expr": "rate(mqtt_pubcomp_invalid_error[30s])",
               "intervalFactor": 2,
               "legendFormat": "PUBCOMP Invalid",
@@ -4059,10 +3774,7 @@
       "id": 57,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -4147,10 +3859,7 @@
           "pluginVersion": "12.0.1+security-01",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_pingreq_received[30s])",
               "intervalFactor": 2,
@@ -4161,10 +3870,7 @@
               "step": 2
             },
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_pingresp_sent[30s])",
               "intervalFactor": 2,
@@ -4193,10 +3899,7 @@
       "id": 58,
       "panels": [
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -4275,10 +3978,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "vernemq_client_expired",
               "intervalFactor": 2,
@@ -4293,10 +3993,7 @@
           "type": "timeseries"
         },
         {
-          "datasource": {
-            "type": "prometheus",
-            "uid": "deks4g1va3ke8b"
-          },
+          "datasource": "prometheus",
           "fieldConfig": {
             "defaults": {
               "color": {
@@ -4375,10 +4072,7 @@
           "pluginVersion": "12.0.2",
           "targets": [
             {
-              "datasource": {
-                "type": "prometheus",
-                "uid": "deks4g1va3ke8b"
-              },
+              "datasource": "prometheus",
               "editorMode": "code",
               "expr": "rate(vernemq_mqtt_invalid_msg_size_error[30s])",
               "intervalFactor": 2,
